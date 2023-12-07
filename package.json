@@ -1,0 +1,21 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/src/main.js",
+    "build": "tsc",
+    "dev": "tsc -watch"
+  },
+  "keywords": [
+    "npm",
+    "js"
+  ],
+  "author": "Oriol Melo",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.3.2"
+  }
+}
